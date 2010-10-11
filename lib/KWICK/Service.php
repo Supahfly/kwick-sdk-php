@@ -53,5 +53,3 @@ abstract class KWICK_Service {
 		return $value;
 	}
 }
-
-?>

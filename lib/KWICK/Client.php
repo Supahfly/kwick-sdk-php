@@ -1,4 +1,12 @@
 <?php
+/**
+ * @see KWICK_Response
+ */
+require_once 'KWICK/Response.php';
+/**
+ * @see KWICK_Remote_Exception
+ */
+require_once 'KWICK/Remote/Exception.php';
 
 /**
  * The client implements properties and methods
@@ -260,5 +268,3 @@ class KWICK_Client {
 		return $rawResponse;
 	}
 }
-
-?>

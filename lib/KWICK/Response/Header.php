@@ -52,5 +52,3 @@ class KWICK_Response_Header {
 		return $value;
 	}
 }
-
-?>

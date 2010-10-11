@@ -1,4 +1,8 @@
 <?php
+/**
+ * @see KWICK_Service
+ */
+require_once 'KWICK/Service.php';
 
 /**
  * This class implements the methods for access the status service.

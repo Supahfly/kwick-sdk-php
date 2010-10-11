@@ -1,4 +1,8 @@
 <?php
+/**
+ * @see KWICK_Exception
+ */
+require_once 'KWICK/Exception.php';
 
 /**
  * This exception is thrown if the API returned an error.
@@ -9,5 +13,3 @@
 class KWICK_Remote_Exception extends KWICK_Exception {
 
 }
-
-?>

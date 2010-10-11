@@ -121,5 +121,3 @@ class KWICK_Session {
 		return (!empty($this->sessionKey) && !empty($this->sessionSecret) && is_numeric($this->userId) && intval($this->userId) > 0 && is_numeric($this->expires) && intval($this->expires) >= 0);
 	}
 }
-
-?>

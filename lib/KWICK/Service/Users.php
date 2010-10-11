@@ -1,4 +1,8 @@
 <?php
+/**
+ * @see KWICK_Service
+ */
+require_once 'KWICK/Service.php';
 
 /**
  * This class implements the methods for access the users service.
@@ -129,5 +133,3 @@ class KWICK_Service_Users extends KWICK_Service {
 		return $this->client->callMethod('users.getOnlineState', $parameters, $this->session);
 	}
 }
-
-?>

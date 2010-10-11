@@ -1,4 +1,8 @@
 <?php
+/**
+ * @see KWICK_Service
+ */
+require_once 'KWICK/Service.php';
 
 /**
  * This class implements the methods for access the friends service.
@@ -96,5 +100,3 @@ class KWICK_Service_Friends extends KWICK_Service {
 		return $this->client->callMethod('friends.areFriends', $parameters, $this->session);
 	}
 }
-
-?>

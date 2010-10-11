@@ -36,5 +36,3 @@ class KWICK_Exception extends RuntimeException {
 		return $this->innerException;
 	}
 }
-
-?>

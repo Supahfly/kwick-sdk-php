@@ -1,4 +1,12 @@
 <?php
+/**
+ * @see KWICK_Response_Header
+ */
+require_once 'KWICK/Response/Header.php';
+/**
+ * @see KWICK_Response_Cookie
+ */
+require_once 'KWICK/Response/Cookie.php';
 
 /**
  * This class encapsulates the response of the API webservice.
@@ -194,5 +202,3 @@ class KWICK_Response {
 		return $response;
 	}
 }
-
-?>
