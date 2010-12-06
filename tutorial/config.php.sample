@@ -2,7 +2,7 @@
 
 /**
  * Please set the specified values and rename this file to 'config.php' before using the tutorial scripts.
- * 
+ *
  * @author KWICK! Community <developer@kwick.de>
  * @version 1.0
  */
@@ -11,7 +11,7 @@ $apiKey = '<Your API key>';
 $secret = '<Your secret>';
 $baseUrl = 'http://api.kwick.de/2.0/service';
 
-$loginUrl = 'http://www.kwick.de/apps/login.php';
+$loginUrl = 'http://www.kwick.de/apps/login';
 
 // You will get a session key by running tutorial_2.php
 $storedSessionKey = 'Your session key';
